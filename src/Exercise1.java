@@ -15,6 +15,6 @@ public class Exercise1 {
 
         double Chill = 35.74 + (0.6215*Temperature) + (((0.4275*Temperature) - 35.75) * Math.pow(WSpeed, 0.16));
 
-        System.out.println("\nWind chill : " + deci.format(Chill) + ".");
+        System.out.println("\nWind chill : " + deci.format(Chill));
     }
 }
