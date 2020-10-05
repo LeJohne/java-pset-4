@@ -14,5 +14,6 @@ public class Exercise7 {
         double P = 6 * S;
 
         System.out.println("\nArea      : " + deci.format(A) + "\nPerimeter : " + deci.format(P));
+        in.close();
     }
 }

@@ -17,5 +17,6 @@ public class Exercise2 {
         double In = (int) (Inches);
 
         System.out.println("\nMiles  : " + deci.format(Mi) + "\nFeet   : " + deci.format(Ft) + "\nInches : " + deci.format(In));
+        in.close();
     }
 }

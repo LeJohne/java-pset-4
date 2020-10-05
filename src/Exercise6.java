@@ -18,5 +18,6 @@ public class Exercise6 {
 
 
         System.out.println("\nArea      : " + deci.format(A) + "\nPerimeter : " + deci.format(P) + "\nDiagonal  : " + deci.format(D));
+        in.close();
     }
 }

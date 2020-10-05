@@ -15,5 +15,6 @@ public class Exercise5 {
         double CCircum = 2 * Math.PI * R;
 
         System.out.println("\nArea          : " + deci.format(CArea) + "\nCircumference : " + deci.format(CCircum));
+        in.close();
     }
 }

@@ -17,5 +17,6 @@ public class Exercise4 {
         double Cm = (int) (Centimeters);
 
         System.out.println("\nKilometers  : " + deci.format(Km) + "\nMeters      : " + deci.format(M) + "\nCentimeters : " + deci.format(Cm));
+        in.close();
     }
 }

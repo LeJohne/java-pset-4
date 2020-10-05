@@ -20,5 +20,6 @@ public class Exercise3 {
         double Area = A - CArea;
 
         System.out.println("\nSurface area : " + deci.format(Area));
+        in.close();
     }
 }
