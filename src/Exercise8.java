@@ -7,11 +7,11 @@ public class Exercise8 {
 
         System.out.print("Text : ");
         String text = in.nextLine();
-        String firsthalf = text.substring(0,2);
-        String secondhalf = text.substring(2);
+        String firsthalf = text.substring(0, text.length() / 2);
+        String secondhalf = text.substring(text.length() / 2);
         String finaltext = secondhalf + firsthalf;
 
-        System.out.println(finaltext.Uppercase);
+        System.out.println("\n" + finaltext.toUpperCase() + ".");
         in.close();
     }
 }
